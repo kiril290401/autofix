@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer  base{
+  html{
+    letter-spacing: 2px;
+    background-color: #23283b;
+    color: white;
+  }
+}
+body{
+  cursor: url('../../public/icon_cursor.png') 16 16, auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.card {
+  position: absolute;
+  padding: 50px;
+  margin-top: 5px;
+  width: 200px;
+  height: 300px;
+  display: grid;
+  place-items: center;
+  border-left: rgba(255, 255, 255, 0.363) 2px solid;
+  border-top: rgba(255, 255, 255, 0.35) 2px solid;
+  border-radius: 20px;
+  background: blur(30px);
+  box-shadow: rgba(0, 0, 0, 0.411) 0px 0px 20px;
+  color: white;
+  backface-visibility: hidden;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+  transition: 2.5s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.front {
+  background: rgba(255, 255, 255, 0.432);
+  transform: rotateY(0deg);
+  padding: 10px;
+}
+
+.back {
+  background: rgba(255, 255, 255, 0.35);
+  transform: rotateY(180deg);
+  padding: 10px;
+}
