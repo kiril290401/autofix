@@ -19,7 +19,7 @@ const SobreNosotros = () => {
             Reparación De Automóviles E Los Que Realmente Puede Confiar
           </p>
           <p className="text-gray-400">
-            En Autofix, nos enorgullecemos de ofrecer servicios de alta calidad
+            En AutoFix, nos enorgullecemos de ofrecer servicios de alta calidad
             y soluciones confiables para todos los problemas de su vehículo.
             Nuestro equipo de técnicos expertos está dedicado a proporcionar un
             servicio excepcional y a garantizar que su automóvil funcione de

@@ -61,14 +61,14 @@ const ServiciosCard = ({ service }) => {
 
       {/* Descripción adicional del servicio */}
       <div
-        className={`absolute inset-0 bg-black bg-opacity-90 text-white p-4 flex flex-col justify-center items-center mb-4 transition-opacity duration-500 ${
+        className={`absolute  inset-0 bg-black bg-opacity-90 text-white p-4 flex flex-col justify-center items-center mb-4 transition-opacity duration-500 ${
           showDescription ? 'opacity-100' : 'opacity-0 pointer-events-none'
         }`}
       >
         <h3 className="text-lg md:text-xl font-semibold mb-4">
           {service.title}
         </h3>
-        <p className="text-gray-300 mb-4 text-center">
+        <p className="text-gray-300  overflow-y-auto mb-4 text-center scrollbar-custom px-5">
           {service.information}
         </p>
         <button

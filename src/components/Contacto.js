@@ -17,7 +17,7 @@ const Contacto = () => {
             <p>
               Correo electrónico:{" "}
               <a className="text-2xl" href="mailto:correo@correo.com">
-                correo@correo.com
+                k2grupfix@gmail.com
               </a>
             </p>
             <div>
@@ -56,13 +56,13 @@ const Contacto = () => {
               <div>
                 <p>
                   De lunes a viernes:{" "}
-                  <span className="text-xl">9:00 - 18:00</span>
+                  <span className="text-xl">9:00 - 13:00 y 15:00 - 19:00</span>
                 </p>
               </div>
             </div>
             <div>
               <p className="uppercase text-primary-color">Ubicación</p>
-              <p className=" text-xl">Passeig de la Muntanya, 17-15</p>
+              <p className=" text-xl">Passeig de la Muntanya, 15B</p>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardsHeader = () => {
   return (
-    <div className='container max-w-5xl m-auto px-4 z-30 -mt-20 relative'>
+    <div className='container max-w-5xl m-auto px-4 z-30   -mt-20 relative'>
         <div className='flex flex-col lg:flex-row items-center justify-between gap-10 text-center'>
             <div className=' bg-fondo-color-gris min-h-44 max-w-72 flex flex-col justify-evenly gap-2 p-4'>
                 <p className='text-lg font-semibold'>Mejores soluciones</p>

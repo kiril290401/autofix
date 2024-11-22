@@ -1,4 +1,3 @@
-import CardsHeader from "@/components/CardsHeader";
 import Header from "@/components/Header";
 import SobreNosotros from "@/components/SobreNosotros";
 import Servicios from "@/components/Servicios";
